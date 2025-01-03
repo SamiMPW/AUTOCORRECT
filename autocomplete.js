@@ -1,3 +1,8 @@
+from flask import Flask, render_template, request
+app = Flask(__name__)
+import sqlite3
+
+
 var stations = [
   "Aldgate",
   "Aldgate East",
